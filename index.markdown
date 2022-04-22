@@ -5,7 +5,7 @@
 layout: home
 ---
 
-## Critical Machine Learning Studies
+**Critical Machine Learning Studies**
 
 The Critical Machine Learning Studies working group is a collection of researchers across the University of California system.
 
