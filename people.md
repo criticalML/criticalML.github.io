@@ -13,6 +13,7 @@ Rita Raley, UCSB
 ## Working group members:
 
 Jacob Gaboury, Berkeley
+![Jacob Gaboury](https://github.com/criticalML/criticalML.github.io/blob/main/images/Gaboury_Headshot_MITPress.jpg?raw=true)
 
 Colin Milburn, Davis
 
