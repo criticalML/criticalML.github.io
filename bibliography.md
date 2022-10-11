@@ -10,185 +10,186 @@ Tags:\
 Abstraction\
 Accountability\
 Adversariality\
-Affect
-Agency
-AI art
-Algorithmic genealogy
-Algorithmic thought
-Algorithmic unconscious
-Algorithms in law
-Anthropomorphism
-Antiblackness
-Artificial Intelligence
-Attention
-Authorship
-BERT
-Bias
-Big data
-Biometrics
-Black boxes
-Blackness and anti-blackness
-Carcerality
-CNN
-Cognition
-Complexity
-Computational statistics
-Computer vision
-Computing methodology
-Concept-based explainability
-Connectionism
-Convolution
-Cultural analytics
-Culture
-Data choices
-Data ethics
-Data society
-Databases
-Datasets
-Decision-making
-Decisionism
-Decolonization
-Deep learning
-Deep neural networks
-Design
-Determinism
-Difference
-Differences in algorithms
-Digital methods
-Disciplinarity
-Disciplinary concerns
-Discourse
-Discrimination
-Discrimination in law
-Domain expertise
-Doubt
-Empiricism
-Epidemiology
-Ethics
-Ethics and design
-Ethics of design
-Ethnography
-Evaluation
-Explainability
-Facebook
-Fairness
-FAT
-Foundation models
-Game theory (methodology)
-GANs
-Gender
-Genealogy
-Genomics
-Gestalt theory
-Governmentality
-GPT
-GPT-2
-GPT-3
-Habitus
-Hate speech
-Hermeneutics
-History
-Homophily
-Human agency
-Humans vs. computers
-Idealizations
-Image-to-image translation
-Imaginations
-Indexicality
-Inductive biases
-Industries
-Information visualization
-Infrastructure
-Institutions
-Intentional stance
-Interpretability
-Interpretability tradeoffs
-Jurisprudence
-Knowledge representation
-Language
-Language models
+Affect\
+Agency\
+AI art\
+Algorithmic genealogy\
+Algorithmic thought\
+Algorithmic unconscious\
+Algorithms in law\
+Anthropomorphism\
+Antiblackness\
+Artificial Intelligence\
+Attention\
+Authorship\
+BERT\
+Bias\
+Big data\
+Biometrics\
+Black boxes\
+Blackness and anti-blackness\
+Carcerality\
+CNN\
+Cognition\
+Complexity\
+Computational statistics\
+Computer vision\
+Computing methodology\
+Concept-based explainability\
+Connectionism\
+Convolution\
+Cultural analytics\
+Culture\
+Data choices\
+Data ethics\
+Data society\
+Databases\
+Datasets\
+Decision-making\
+Decisionism\
+Decolonization\
+Deep learning\
+Deep neural networks\
+Design\
+Determinism\
+Difference\
+Differences in algorithms\
+Digital methods\
+Disciplinarity\
+Disciplinary concerns\
+Discourse\
+Discrimination\
+Discrimination in law\
+Domain expertise\
+Doubt\
+Empiricism\
+Epidemiology\
+Ethics\
+Ethics and design\
+Ethics of design\
+Ethnography\
+Evaluation\
+Explainability\
+Facebook\
+Fairness\
+FAT\
+Foundation models\
+Game theory (methodology)\
+GANs\
+Gender\
+Genealogy\
+Genomics\
+Gestalt theory\
+Governmentality\
+GPT\
+GPT-2\
+GPT-3\
+Habitus\
+Hate speech\
+Hermeneutics\
+History\
+Homophily\
+Human agency\
+Humans vs. computers\
+Idealizations\
+Image-to-image translation\
+Imaginations\
+Indexicality\
+Inductive biases\
+Industries\
+Information visualization\
+Infrastructure\
+Institutions\
+Intentional stance\
+Interpretability\
+Interpretability tradeoffs\
+Jurisprudence\
+Knowledge representation\
+Language\
+Language models\
 Law
-Legality
-Limitations
-Machine decisions
-Mythology/allegory
-Media analytics
-Medicine
-Methodology
-Micropolitics
-ML genealogy
-Model selection
-Modeling the senses
-Modularity
-Multilingual machines
-N. Katherine Hayles
-Neural machine translation
-Neural networks
-Neuroscience
-NLI
-NLP
-No-free-lunch theorems
-Nooscope
-Nuisance variation
-Olfactory perception
-Opacity
-OpenAI
-Optics & perception
-Perception
-Phenomenology
-Platforms
-Political questions
-Politics
-Positivism
-Post-truth
-Posthumanism
-Pragmatics
-Predictive crime
-Psychoanalysis
-Psychology
-Public health
-Queer epistemology
-Race
-Race as covariate
-Race and visuality
-Recommender systems
-Reinforcement Learning
-Representation
-Restorative justice
-Rights
-Semiotics
-Sex
-SHAP values
-Shortcomings
-Social groups
-Social learning
-Social media
-Social questions
-Sociality
-Society
-Sociolinguistics
-Sociological theory
-Sociotechnical imaginaries
-Strategic manipulation
-Subjectivity
-Subversive AI
-Surveillance
-Technical paper
-Technicity
-Translation
-Transformers
-Transparency
-Trustworthy AI
-Twitter
-Uncertainty
-Values
-Word2Vec
-XAI
-YouTube
+Legality\
+Limitations\
+Machine decisions\
+Mythology/allegory\
+Media analytics\
+Medicine\
+Methodology\
+Micropolitics\
+ML genealogy\
+Model selection\
+Modeling the senses\
+Modularity\
+Multilingual machines\
+N. Katherine Hayles\
+Neural machine translation\
+Neural networks\
+Neuroscience\
+NLI\
+NLP\
+No-free-lunch theorems\
+Nooscope\
+Nuisance variation\
+Olfactory perception\
+Opacity\
+OpenAI\
+Optics & perception\
+Perception\
+Phenomenology\
+Platforms\
+Political questions\
+Politics\
+Positivism\
+Post-truth\
+Posthumanism\
+Pragmatics\
+Predictive crime\
+Psychoanalysis\
+Psychology\
+Public health\
+Queer epistemology\
+Race\
+Race as covariate\
+Race and visuality\
+Recommender systems\
+Reinforcement Learning\
+Representation\
+Restorative justice\
+Rights\
+Semiotics\
+Sex\
+SHAP values\
+Shortcomings\
+Social groups\
+Social learning\
+Social media\
+Social questions\
+Sociality\
+Society\
+Sociolinguistics\
+Sociological theory\
+Sociotechnical imaginaries\
+Strategic manipulation\
+Subjectivity\
+Subversive AI\
+Surveillance\
+Technical paper\
+Technicity\
+Translation\
+Transformers\
+Transparency\
+Trustworthy AI\
+Twitter\
+Uncertainty\
+Values\
+Word2Vec\
+XAI\
+YouTube\
 
-Adadi, Amina and Mohammed Berrada. “Peeking inside the black-box: A survey on explainable artificial intelligence (XAI).” IEEE Access 6 (September, 2018): 52138–52160. Tags: XAI
+Adadi, Amina and Mohammed Berrada. “Peeking inside the black-box: A survey on explainable artificial intelligence (XAI).” IEEE Access 6 (September, 2018): 52138–52160. Tags: XAI\
 At the dawn of the fourth industrial revolution, we are witnessing a fast and widespread adoption of artificial intelligence (AI) in our daily life, which contributes to accelerating the shift towards a more algorithmic society. However, even with such unprecedented advancements, a key impediment to the use of AI-based systems is that they often lack transparency. Indeed, the black-box nature of these systems allows powerful predictions, but it cannot be directly explained. This issue has triggered a new debate on explainable AI (XAI). A research field holds substantial promise for improving trust and transparency of AI-based systems. It is recognized as the sine qua non for AI to continue making steady progress without disruption. This survey provides an entry point for interested researchers and practitioners to learn key aspects of the young and rapidly growing body of research related to XAI. Through the lens of the literature, we review the existing approaches regarding the topic, discuss trends surrounding its sphere, and present major research trajectories.
-Alkhatib, Ali. “Anthropological/Artificial Intelligence & the HAI.” Last modified March 26, 2019. https://ali-alkhatib.com/blog/anthropological-intelligence. Tags: Industries, ethics
+
+Alkhatib, Ali. “Anthropological/Artificial Intelligence & the HAI.” Last modified March 26, 2019. https://ali-alkhatib.com/blog/anthropological-intelligence. Tags: Industries, ethics\
 Last week Stanford launched the institute for human-centered artificial intelligence, and to kick things off James Landay posted about the roles AI could play in society, and the importance of exploring smart interfaces.
 
 Amaro, Ramon. “As If.” e-flux architecture vol. 97 (February, 2019). Tags: Computer vision, optics & Perception, Blackness and anti-Blackness, race and visuality.
