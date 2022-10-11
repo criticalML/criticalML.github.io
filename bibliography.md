@@ -6,14 +6,10 @@ permalink: /bibliography/
 
 Below is a working collection of publications on machine learning, from the technical to the philosophical.
 
-Tags:
-
-Abstraction
-
-Accountability
-
-Adversariality
-
+Tags:\
+Abstraction\
+Accountability\
+Adversariality\
 Affect
 Agency
 AI art
