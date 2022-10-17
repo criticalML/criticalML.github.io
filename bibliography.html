@@ -3,6 +3,9 @@ layout: page
 title: "Bibliography"
 permalink: /bibliography/
 ---
+<!DOCTYPE html>
+<html>
+<head>
 <style>
 
 .collapsible {
@@ -17,13 +20,10 @@ permalink: /bibliography/
   font-size: 15px;
 }
     
-.content {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+.active, .collapsible:hover {
+  background-color: #555;
 }
+
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
@@ -35,24 +35,16 @@ permalink: /bibliography/
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
-</style>
-<head>
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
+    
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
-</script>
+    
+</style>
 </head>
 <body>
 <p>Below is a working collection of publications on machine learning, from the technical to the philosophical.</p>
@@ -238,7 +230,27 @@ for (i = 0; i < coll.length; i++) {
     XAI
     YouTube</p>
     </div>
+    
+    
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
 </body>
+</html>
+
 
 <!--[**Adadi, Amina and Mohammed Berrada. “Peeking inside the black-box: A survey on explainable artificial intelligence (XAI).” IEEE Access 6 (September, 2018): 52138–52160.**](https://drive.google.com/file/d/1F0bR4asfNB2d9sVI2YPaIfXLSaqmz7Ua/view?usp=sharing) Tags: XAI\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the dawn of the fourth industrial revolution, we are witnessing a fast and widespread adoption of artificial intelligence (AI) in our daily life, which contributes to accelerating the shift towards a more algorithmic society. However, even with such unprecedented advancements, a key impediment to the use of AI-based systems is that they often lack transparency. Indeed, the black-box nature of these systems allows powerful predictions, but it cannot be directly explained. This issue has triggered a new debate on explainable AI (XAI). A research field holds substantial promise for improving trust and transparency of AI-based systems. It is recognized as the sine qua non for AI to continue making steady progress without disruption. This survey provides an entry point for interested researchers and practitioners to learn key aspects of the young and rapidly growing body of research related to XAI. Through the lens of the literature, we review the existing approaches regarding the topic, discuss trends surrounding its sphere, and present major research trajectories.
