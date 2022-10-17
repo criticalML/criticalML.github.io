@@ -3,188 +3,224 @@ layout: page
 title: "Bibliography"
 permalink: /bibliography/
 ---
+<style>
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
 
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+</style>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
 <p>Below is a working collection of publications on machine learning, from the technical to the philosophical.</p>
 <button type="button" class="collapsible">Open Topics List</button>
 <div class="content">
-    <p>Tags:\
-    Abstraction\
-    Accountability\
-    Adversariality\
-    Affect\
-    Agency\
-    AI art\
-    Algorithmic genealogy\
-    Algorithmic thought\
-    Algorithmic unconscious\
-    Algorithms in law\
-    Anthropomorphism\
-    Antiblackness\
-    Artificial Intelligence\
-    Attention\
-    Authorship\
-    BERT\
-    Bias\
-    Big data\
-    Biometrics\
-    Black boxes\
-    Blackness and anti-blackness\
-    Carcerality\
-    CNN\
-    Cognition\
-    Complexity\
-    Computational statistics\
-    Computer vision\
-    Computing methodology\
-    Concept-based explainability\
-    Connectionism\
-    Convolution\
-    Cultural analytics\
-    Culture\
-    Data choices\
-    Data ethics\
-    Data society\
-    Databases\
-    Datasets\
-    Decision-making\
-    Decisionism\
-    Decolonization\
-    Deep learning\
-    Deep neural networks\
-    Design\
-    Determinism\
-    Difference\
-    Differences in algorithms\
-    Digital methods\
-    Disciplinarity\
-    Disciplinary concerns\
-    Discourse\
-    Discrimination\
-    Discrimination in law\
-    Domain expertise\
-    Doubt\
-    Empiricism\
-    Epidemiology\
-    Ethics\
-    Ethics and design\
-    Ethics of design\
-    Ethnography\
-    Evaluation\
-    Explainability\
-    Facebook\
-    Fairness\
-    FAT\
-    Foundation models\
-    Game theory (methodology)\
-    GANs\
-    Gender\
-    Genealogy\
-    Genomics\
-    Gestalt theory\
-    Governmentality\
-    GPT\
-    GPT-2\
-    GPT-3\
-    Habitus\
-    Hate speech\
-    Hermeneutics\
-    History\
-    Homophily\
-    Human agency\
-    Humans vs. computers\
-    Idealizations\
-    Image-to-image translation\
-    Imaginations\
-    Indexicality\
-    Inductive biases\
-    Industries\
-    Information visualization\
-    Infrastructure\
-    Institutions\
-    Intentional stance\
-    Interpretability\
-    Interpretability tradeoffs\
-    Jurisprudence\
-    Knowledge representation\
-    Language\
-    Language models\
+    <p>Tags:
+    Abstraction
+    Accountability
+    Adversariality
+    Affect
+    Agency
+    AI art
+    Algorithmic genealogy
+    Algorithmic thought
+    Algorithmic unconscious
+    Algorithms in law
+    Anthropomorphism
+    Antiblackness
+    Artificial Intelligence
+    Attention
+    Authorship
+    BERT
+    Bias
+    Big data
+    Biometrics
+    Black boxes
+    Blackness and anti-blackness
+    Carcerality
+    CNN
+    Cognition
+    Complexity
+    Computational statistics
+    Computer vision
+    Computing methodology
+    Concept-based explainability
+    Connectionism
+    Convolution
+    Cultural analytics
+    Culture
+    Data choices
+    Data ethics
+    Data society
+    Databases
+    Datasets
+    Decision-making
+    Decisionism
+    Decolonization
+    Deep learning
+    Deep neural networks
+    Design
+    Determinism
+    Difference
+    Differences in algorithms
+    Digital methods
+    Disciplinarity
+    Disciplinary concerns
+    Discourse
+    Discrimination
+    Discrimination in law
+    Domain expertise
+    Doubt
+    Empiricism
+    Epidemiology
+    Ethics
+    Ethics and design
+    Ethics of design
+    Ethnography
+    Evaluation
+    Explainability
+    Facebook
+    Fairness
+    FAT
+    Foundation models
+    Game theory (methodology)
+    GANs
+    Gender
+    Genealogy
+    Genomics
+    Gestalt theory
+    Governmentality
+    GPT
+    GPT-2
+    GPT-3
+    Habitus
+    Hate speech
+    Hermeneutics
+    History
+    Homophily
+    Human agency
+    Humans vs. computers
+    Idealizations
+    Image-to-image translation
+    Imaginations
+    Indexicality
+    Inductive biases
+    Industries
+    Information visualization
+    Infrastructure
+    Institutions
+    Intentional stance
+    Interpretability
+    Interpretability tradeoffs
+    Jurisprudence
+    Knowledge representation
+    Language
+    Language models
     Law
-    Legality\
-    Limitations\
-    Machine decisions\
-    Mythology/allegory\
-    Media analytics\
-    Medicine\
-    Methodology\
-    Micropolitics\
-    ML genealogy\
-    Model selection\
-    Modeling the senses\
-    Modularity\
-    Multilingual machines\
-    N. Katherine Hayles\
-    Neural machine translation\
-    Neural networks\
-    Neuroscience\
-    NLI\
-    NLP\
-    No-free-lunch theorems\
-    Nooscope\
-    Nuisance variation\
-    Olfactory perception\
-    Opacity\
-    OpenAI\
-    Optics & perception\
-    Perception\
-    Phenomenology\
-    Platforms\
-    Political questions\
-    Politics\
-    Positivism\
-    Post-truth\
-    Posthumanism\
-    Pragmatics\
-    Predictive crime\
-    Psychoanalysis\
-    Psychology\
-    Public health\
-    Queer epistemology\
-    Race\
-    Race as covariate\
-    Race and visuality\
-    Recommender systems\
-    Reinforcement Learning\
-    Representation\
-    Restorative justice\
-    Rights\
-    Semiotics\
-    Sex\
-    SHAP values\
-    Shortcomings\
-    Social groups\
-    Social learning\
-    Social media\
-    Social questions\
-    Sociality\
-    Society\
-    Sociolinguistics\
-    Sociological theory\
-    Sociotechnical imaginaries\
-    Strategic manipulation\
-    Subjectivity\
-    Subversive AI\
-    Surveillance\
-    Technical paper\
-    Technicity\
-    Translation\
-    Transformers\
-    Transparency\
-    Trustworthy AI\
-    Twitter\
-    Uncertainty\
-    Values\
-    Word2Vec\
-    XAI\
+    Legality
+    Limitations
+    Machine decisions
+    Mythology/allegory
+    Media analytics
+    Medicine
+    Methodology
+    Micropolitics
+    ML genealogy
+    Model selection
+    Modeling the senses
+    Modularity
+    Multilingual machines
+    N. Katherine Hayles
+    Neural machine translation
+    Neural networks
+    Neuroscience
+    NLI
+    NLP
+    No-free-lunch theorems
+    Nooscope
+    Nuisance variation
+    Olfactory perception
+    Opacity
+    OpenAI
+    Optics & perception
+    Perception
+    Phenomenology
+    Platforms
+    Political questions
+    Politics
+    Positivism
+    Post-truth
+    Posthumanism
+    Pragmatics
+    Predictive crime
+    Psychoanalysis
+    Psychology
+    Public health
+    Queer epistemology
+    Race
+    Race as covariate
+    Race and visuality
+    Recommender systems
+    Reinforcement Learning
+    Representation
+    Restorative justice
+    Rights
+    Semiotics
+    Sex
+    SHAP values
+    Shortcomings
+    Social groups
+    Social learning
+    Social media
+    Social questions
+    Sociality
+    Society
+    Sociolinguistics
+    Sociological theory
+    Sociotechnical imaginaries
+    Strategic manipulation
+    Subjectivity
+    Subversive AI
+    Surveillance
+    Technical paper
+    Technicity
+    Translation
+    Transformers
+    Transparency
+    Trustworthy AI
+    Twitter
+    Uncertainty
+    Values
+    Word2Vec
+    XAI
     YouTube</p>
 
 <![**Adadi, Amina and Mohammed Berrada. “Peeking inside the black-box: A survey on explainable artificial intelligence (XAI).” IEEE Access 6 (September, 2018): 52138–52160.**](https://drive.google.com/file/d/1F0bR4asfNB2d9sVI2YPaIfXLSaqmz7Ua/view?usp=sharing) Tags: XAI\
