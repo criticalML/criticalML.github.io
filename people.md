@@ -8,7 +8,7 @@ permalink: /people/
 
 **Fabian Offert, UCSB**
 
-<img src="/images/fabian.jpg" width="320" height="300"/>
+<img src="/images/fabian.jpg"/>
 
 Fabian Offert is Assistant Professor for the History and Theory of the Digital Humanities at the University of California, Santa Barbara. His research and teaching focuses on the visual digital humanities, with a special interest in the epistemology and aesthetics of computer vision and machine learning. In addition to the "Critical Machine Learning Studies" research group, he is also principal investigator of the international research project "AI Forensics" (2022-25), funded by the VW foundation. Before joining the faculty at UCSB, Fabian served as postdoctoral researcher in the DFG SPP "The Digital Image", associated researcher in the Critical Artificial Intelligence Group (KIM) at Karlsruhe University of Arts and Design, and Assistant Curator at ZKM Karlsruhe, Germany.
 
