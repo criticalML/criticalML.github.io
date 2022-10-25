@@ -6,7 +6,7 @@ layout: home
 image: images/Critical Machine Learning Studies bigger picture.png
 ---
 
-The Critical Machine Learning Studies working group is a collection of researchers across the University of California system.
+The UC Humanities Research Institute-funded Critical Machine Learning Studies working group is a collection of researchers across the University of California system.
 
 This working group aims to articulate, from within the humanities, a technically specific
 and situated paradigm for engaging machine learning. Academic work on artificial intelligence
