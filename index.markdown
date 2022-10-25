@@ -21,5 +21,3 @@ experience of UC faculty to design new approaches to describe, and critique in d
 contemporary machine learning systems, focusing on their individual (“ML studies”), rather
 than collective (“AI Studies”), properties, and their architecture-specific, rather than
 model-specific, biases and shortcomings.
-
-Paul test
