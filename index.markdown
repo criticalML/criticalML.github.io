@@ -7,7 +7,7 @@ featured_img: /images/Critical Machine Learning/Critical Machine Learning-logos.
 ---
 
 {% for post in site.posts %}
-  <img src="{% post.feature_img %}" />
+  <img src="{% post.featured_img %}" />
 {% endfor %}
 
 The Critical Machine Learning Studies working group is a collection of researchers across the University of California system.
