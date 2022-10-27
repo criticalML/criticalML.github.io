@@ -27,10 +27,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  jekyll
 
 # Build settings
-remote_theme: "knhash/Pudhina"
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 plugins:
   - jekyll-feed
 
+logo: images/logo.png
 #avatar: images/logo.png
 #header_text: # Change Blog header text
 #header_feature_image: images/Critical Machine Learning Studies bigger picture.png
