@@ -27,14 +27,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  jekyll
 
 # Build settings
-remote_theme: "sylhare/Type-on-Strap"
+remote_theme: "jekyllt/jasper2"
 plugins:
   - jekyll-feed
 
-avatar: images/logo.png
-header_text: # Change Blog header text
-header_feature_image: images/Critical Machine Learning Studies bigger picture.png
-header_feature_image_responsive: true
+#avatar: images/logo.png
+#header_text: # Change Blog header text
+#header_feature_image: images/Critical Machine Learning Studies bigger picture.png
+#header_feature_image_responsive: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
