@@ -3,7 +3,7 @@ layout: page
 title: "People"
 permalink: /people/
 ---
-
+!
 ## Principal Investigators:
 
 **Fabian Offert, UC Santa Barbara**
