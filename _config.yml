@@ -32,6 +32,9 @@ plugins:
   - jekyll-feed
 
 logo: images/logo.png
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 #avatar: images/logo.png
 #header_text: # Change Blog header text
 #header_feature_image: images/Critical Machine Learning Studies bigger picture.png
