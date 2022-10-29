@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-image: images/front pic resize.png
+image: images/front pic resize 2.png
 ---
 
 The UC Humanities Research Institute-funded Critical Machine Learning Studies working group is a collection of researchers across the University of California system.
