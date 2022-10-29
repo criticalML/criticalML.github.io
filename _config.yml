@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Critical Machine Learning Studies
+title: 
 email: offert@ucsb.edu
 description: >- # this means to ignore newlines until "baseurl:" Home page for the UCHRI Critical Machine Learning Studies working group.
 baseurl: "" # the subpath of your site, e.g. /blog
